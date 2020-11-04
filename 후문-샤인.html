@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+  <title>한경대학교 맛집 - 후문</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0px;
+      background: #E0E6F8;
+    }
+    a {
+      color:gray;
+      text-decoration: none;
+
+    }
+    h1 {
+      text-align: center;
+      padding:0px;
+    }
+    h2 {
+      padding-top:30px;
+    }
+    ol{
+      border-right:none;
+      width:240px;
+      padding:20px;
+    }
+
+input[id="menuicon"] {display:none;}
+input[id="menuicon"] + label {display:block;margin:30px;width:40px;height:30px;position:relative;cursor:pointer;}
+input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:5px;border-radius:30px;background:#A9BCF5;transition:all .35s;}
+input[id="menuicon"] + label span:nth-child(1) {top:0;}
+input[id="menuicon"] + label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+input[id="menuicon"] + label span:nth-child(3) {bottom:0;}
+input[id="menuicon"]:checked + label {z-index:2;}
+input[id="menuicon"]:checked + label span {background:#fff;}
+input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+div[class="sidebar"] {width:300px;height:100%;background:#A9BCF5;position:fixed;top:0;left:-300px;z-index:1;transition:all .35s;}
+input[id="menuicon"]:checked + label + div {left:0;}
+</style>
+<input type="checkbox" id="menuicon">
+<label for="menuicon">
+	<span></span>
+	<span></span>
+	<span></span>
+
+</label>
+<div class="sidebar">
+<div style="margin-top:65px;margin-left:20px;">
+  <ol>
+    <li>치킨, 닭강정 - <a href="후문-샤인.html"><span style="background-color:#E0E6F8;">"샤인"</span></a></li>
+    <br><li>양꼬치 - <a href="후문-인생양꼬치.html">"인생양꼬치"</a></li>
+    <br><li>한식 - <a href="후문-허니조이.html">"허니조이"</a></li>
+    <br><li>오징어요리 - <a href="후문-오징어나라.html">"오징어나라"</a></li>
+    <br><li>돈가스 - <a href="후문-코바코.html">"코바코"</a></li>
+  </ol>
+  <a href="yummy.html">[메인으로 돌아가기]</a>
+</div>
+</div>
+<body>
+  <p>
+
+  <h1><span style="background:linear-gradient(to top,#A9BCF5 50%, transparent 50%)"><font color="gray">후문 근처 맛집</font></span></h1>
+<div style="margin-left:100px;">
+<h2><font color="gray">🍴 샤인 🍴</font></h2>
+
+<nl>
+	<li><strong>위치</strong> 경기도 안성시 대학로 53</li><Br>
+	<img src="샤인 지도.png" width="93%"><Br>
+	<br><li><strong>전화번호</strong> 031)671-9105</li>
+	<br><li><strong>메뉴</strong></li><br>
+  - 새우세트(후라이드+왕새우5마리) 19,000원<br>
+  - 어니언치킨 13,000원<br>
+  - 치감세트(후라이드+양념감자) 12,000원<br>
+  - 스노우치즈감자세트(스노윙치즈치킨+양념감자) 14,000원<br>
+  - 통오징어닭(순살후라이드+통오징어) 18,000원<br>
+  - 후라이드뼈닭 14,000원<br>
+  <br><li><strong>사진</strong></li><br>
+	<img src="샤인 업체사진.jpg" width="93%">
+	<img src="샤인 내부.jpg" width="93%">
+	<img src="샤인 음식1.jpg" width="93%">
+	<img src="샤인 음식2.jpg" width="93%"><Br>
+	<br><li><strong>후기</strong></li><br>
+	네이버 별점 5 / 5<br>
+<br>네이버 방문자 리뷰<br>
+- 후라이드 너무 좋아하는데 바삭하니 맛있네요~~ (ID: renadays)<br>
+- 통오징어통닭 진짜 별미에요~~ (ID: renadays)<br>
+</nl>
+</p>
+</div>
+
+</body>
+</html>

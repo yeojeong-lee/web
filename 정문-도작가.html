@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <title>한경대학교 맛집 - 정문</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0px;
+      background: #E0E6F8;
+    }
+    a {
+      color:gray;
+      text-decoration: none;
+
+    }
+    h1 {
+      text-align: center;
+      padding:0px;
+    }
+    h2 {
+      padding-top:30px;
+    }
+    ol{
+      border-right:none;
+      width:240px;
+      padding:20px;
+    }
+
+input[id="menuicon"] {display:none;}
+input[id="menuicon"] + label {display:block;margin:30px;width:40px;height:30px;position:relative;cursor:pointer;}
+input[id="menuicon"] + label span {display:block;position:absolute;width:100%;height:5px;border-radius:30px;background:#A9BCF5;transition:all .35s;}
+input[id="menuicon"] + label span:nth-child(1) {top:0;}
+input[id="menuicon"] + label span:nth-child(2) {top:50%;transform:translateY(-50%);}
+input[id="menuicon"] + label span:nth-child(3) {bottom:0;}
+input[id="menuicon"]:checked + label {z-index:2;}
+input[id="menuicon"]:checked + label span {background:#fff;}
+input[id="menuicon"]:checked + label span:nth-child(1) {top:50%;transform:translateY(-50%) rotate(45deg);}
+input[id="menuicon"]:checked + label span:nth-child(2) {opacity:0;}
+input[id="menuicon"]:checked + label span:nth-child(3) {bottom:50%;transform:translateY(50%) rotate(-45deg);}
+div[class="sidebar"] {width:300px;height:100%;background:#A9BCF5;position:fixed;top:0;left:-300px;z-index:1;transition:all .35s;}
+input[id="menuicon"]:checked + label + div {left:0;}
+</style>
+<input type="checkbox" id="menuicon">
+<label for="menuicon">
+	<span></span>
+	<span></span>
+	<span></span>
+
+</label>
+<div class="sidebar">
+<div style="margin-top:65px;margin-left:20px;">
+  <ol>
+    <li>곱창, 막창, 양 - <a href="정문-안성돌곱창.html">"안성돌곱창"</a></li>
+    <br><li>닭갈비 - <a href="정문-홍춘천치즈닭갈비.html">"홍춘천치즈닭갈비"</a></li>
+    <br><li>소고기구이 - <a href="정문-반값소.html">"반값소"</a></li>
+    <br><li>이탈리아 음식 - <a href="정문-엘불리.html">"엘불리"</a></li>
+    <br><li>양식 - <a href="정문-도작가.html"><span style="background-color:#E0E6F8;">"도작가"</span></a></li>
+  </ol>
+  <a href="yummy.html">[메인으로 돌아가기]</a>
+</div>
+</div>
+<body>
+  <p>
+
+  <h1><span style="background:linear-gradient(to top,#A9BCF5 50%, transparent 50%)"><font color="gray">정문 근처 맛집</font></span></h1>
+<div style="margin-left:100px;">
+<h2><font color="gray">🍴 도작가 🍴</font></h2>
+
+<nl>
+	<li><strong>위치</strong> 경기도 안성시 중앙로 302번길 13</li><Br>
+	<img src="도작가 지도.png" width="93%"><Br>
+	<br><li><strong>전화번호</strong> 031)671-0369</li>
+	<br><li><strong>영업시간</strong> 매일 11:30 - 22:00 브레이크타임 15:00 - 17:00</li>
+	<br><li><strong>메뉴</strong></li><br>
+  - 부채살 찹스테이크 15,900원<br>
+  - 불고기에빠따따피자 14,900원<br>
+  - 비프필라프(1인분) 9,900원<br>
+  - 빠네 12,900원<br>
+  - 쉬림프로제파스타(1인분) 11,900원<br>
+  - 스테이크세트 A (가든샐러드1+파스타1+스테이크1+탄산음료2) 35,000원<br>
+  - 스테이크세트 B (가든샐러드1+피자1+스테이크1+탄산음료2) 38,000원<br>
+  <br><li><strong>사진</strong></li><br>
+	<img src="도작가 업체사진.jpg" width="93%">
+	<img src="도작가 내부.jpg" width="93%">
+	<img src="도작가 음식1.jpg" width="93%">
+	<img src="도작가 음식2.jpg" width="93%"><Br>
+	<br><li><strong>후기</strong></li><br>
+	네이버 별점 3.72 / 5<br>
+<br>네이버 방문자 리뷰<br>
+- 좋아요 (ID: kjyhae)<br>
+- 굿 (ID: 종종맘)<br>
+</nl>
+</p>
+</div>
+
+</body>
+</html>
